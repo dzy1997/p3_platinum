@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 503327a99625f734eaaf283eabc6645e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stunEffect: {fileID: 7573105866580833949, guid: dbd50570c3db47445bad72e1c4072943,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

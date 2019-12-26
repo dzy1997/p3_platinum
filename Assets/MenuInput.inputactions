@@ -1,0 +1,93 @@
+{
+    "name": "MenuInput",
+    "maps": [
+        {
+            "name": "MenuInputMap",
+            "id": "caccdd52-66a3-4b49-bc71-eacfec452257",
+            "actions": [
+                {
+                    "name": "ScrollUp",
+                    "type": "Button",
+                    "id": "c4fcab9a-1ff9-49fe-870c-2af696a2890d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ScrollDown",
+                    "type": "Button",
+                    "id": "3f800200-0967-46d1-b557-c3644a74ef40",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ButtonPress",
+                    "type": "Button",
+                    "id": "6f207ad9-71ed-4ed5-8e0b-05f1655cbc22",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e4e112f7-7352-4554-be44-5f3474d4b4a8",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6211ab4-d99c-4aa4-b657-ef2fafb29901",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d28ace00-a02a-4393-8920-3d3115dbb25d",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b7a588d-ccdc-4784-9423-fb58a7bc5566",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d95df34-75d5-44f5-8583-f7acf5a6af5d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
