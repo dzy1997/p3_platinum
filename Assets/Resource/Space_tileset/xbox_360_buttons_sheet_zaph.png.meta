@@ -69,7 +69,7 @@ TextureImporter:
       213: 3890707817482614678
     second: xbox_360_buttons_sheet_zaph_21
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -89,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -97,9 +99,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -120,9 +122,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -150,6 +157,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -635,6 +666,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      xbox_360_buttons_sheet_zaph_9: 2016476158999159226
+      xbox_360_buttons_sheet_zaph_7: -440567346353665995
+      xbox_360_buttons_sheet_zaph_21: 3890707817482614678
+      xbox_360_buttons_sheet_zaph_13: -7232745754708978757
+      xbox_360_buttons_sheet_zaph_0: -6799273853472567390
+      xbox_360_buttons_sheet_zaph_8: 3430854840007589128
+      xbox_360_buttons_sheet_zaph_17: 328767473728554854
+      xbox_360_buttons_sheet_zaph_18: -2785496256744879157
+      xbox_360_buttons_sheet_zaph_15: 5820028848214418368
+      xbox_360_buttons_sheet_zaph_3: -741202193043221643
+      xbox_360_buttons_sheet_zaph_10: 475438157368944671
+      xbox_360_buttons_sheet_zaph_11: -4809375655367299676
+      xbox_360_buttons_sheet_zaph_12: -795617704983223255
+      xbox_360_buttons_sheet_zaph_19: 8938780859522496967
+      xbox_360_buttons_sheet_zaph_16: 8028075519678667949
+      xbox_360_buttons_sheet_zaph_1: -8749243891829698598
+      xbox_360_buttons_sheet_zaph_6: -7179976555391530721
+      xbox_360_buttons_sheet_zaph_14: -3858780873032254188
+      xbox_360_buttons_sheet_zaph_4: 8252648232773470610
+      xbox_360_buttons_sheet_zaph_20: 7291035118461712635
+      xbox_360_buttons_sheet_zaph_5: 6305601103139087135
+      xbox_360_buttons_sheet_zaph_2: -5078446774380907257
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

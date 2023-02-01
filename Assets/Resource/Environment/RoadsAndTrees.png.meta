@@ -75,7 +75,7 @@ TextureImporter:
       213: -713391696639976190
     second: RoadsAndTrees_23
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,6 +95,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -103,9 +105,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -126,9 +128,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -156,6 +163,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -683,6 +714,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      RoadsAndTrees_11: 7396848059772496363
+      RoadsAndTrees_6: -1496364175135166112
+      RoadsAndTrees_0: 8062412617426003596
+      RoadsAndTrees_10: 3743710118166329261
+      RoadsAndTrees_9: -9067331604899073533
+      RoadsAndTrees_12: -3572022880033637896
+      RoadsAndTrees_2: -4975851451554262442
+      RoadsAndTrees_17: -7902417668993354409
+      RoadsAndTrees_5: -2100324096042397848
+      RoadsAndTrees_1: 6240015977719355659
+      RoadsAndTrees_18: -986806701203865128
+      RoadsAndTrees_4: 5858281767339764103
+      RoadsAndTrees_20: 4294243787136641671
+      RoadsAndTrees_23: -713391696639976190
+      RoadsAndTrees_7: -7386376850418232153
+      RoadsAndTrees_16: -6119723883886999321
+      RoadsAndTrees_22: -1756192315597664883
+      RoadsAndTrees_3: -8121744082716341169
+      RoadsAndTrees_14: 5553053406462041489
+      RoadsAndTrees_13: 7390713752881183728
+      RoadsAndTrees_19: 963989324824953045
+      RoadsAndTrees_15: -2325873071447685419
+      RoadsAndTrees_21: 4044144541317436933
+      RoadsAndTrees_8: -5881906743159143483
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
